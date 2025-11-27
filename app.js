@@ -343,7 +343,7 @@ class GradingSystem {
         
         if (total >= 18 && failedPartials <= 1) return 'APROBADO';
         else if (total >= 17) return 'EXTRAORDINARIO';
-        else return 'REPROBADO';
+        else return 'EXTRAORDINARIO';
     }
 
     showTab(tabName) {
